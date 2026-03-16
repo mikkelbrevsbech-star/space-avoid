@@ -446,7 +446,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
         `, SpriteKind.Player)
     mySprite.setPosition(79, 104)
     controller.moveSprite(mySprite, 150, 0)
-    for (let index = 0; index < 50; index++) {
+    for (let index = 0; index < 500; index++) {
         pause(200)
         top.setPosition(randint(0, 155), 1)
         projectile = sprites.createProjectileFromSprite(img`
